@@ -1,9 +1,7 @@
-function getFormvalue() {
+function getFormvalue(e) {
     //Write your code here
+            e.preventDefault();
 	let firstName=document.querySelector('input[name="fname"]').value;
 	let lastName=document.querySelector('input[name="lname"]').value;
-	let output=document.querySelector('input[value="Submit"]')
-	form1.addEventListener("click",
-	window.alert(firstName+" "+lastName)
-	)
+	alert(firstName + " " + lastName);
 }
