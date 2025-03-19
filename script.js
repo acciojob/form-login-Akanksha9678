@@ -9,4 +9,4 @@
             }
         }
         
-        document.getElementById("nameForm").addEventListener("submit", getFormvalue);
+        document.getElementById('input[type="submit"]').addEventListener("submit", getFormvalue);
